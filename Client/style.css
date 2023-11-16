@@ -23,6 +23,11 @@ body {
   padding: 10px;
 }
 
+#app h1 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
 #chat_container {
   flex: 1;
   width: 100%;
@@ -52,6 +57,12 @@ body {
 
 .ai {
   background: #40414f;
+  border-radius: 5px;
+}
+
+.user {
+  background: #272830;
+  border-radius: 5px;
 }
 
 .chat {
